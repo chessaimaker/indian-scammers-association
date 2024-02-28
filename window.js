@@ -12,7 +12,7 @@ win.moveTo(Math.random() * screen.width, Math.random() * screen.height);
 if(win2){
 win2.close();
 }
-win2 = window.open("https://slide.new");
+win2 = window.open(location.href);
 }, 1000);
 }, 1000);
 } catch(e){
