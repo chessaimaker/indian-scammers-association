@@ -13,7 +13,7 @@ win2 = window.open(location.href);
 win2.close();
   if(!win){
     alert("Please allow popups.");
-    while(true)(true)(true)(true)(true)(true){
+    while(true){
       window.location.reload();
     }
   }
